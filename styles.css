@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: zeitung-pro-variable, sans-serif;
+    font-style: normal;
+}
+header{
+    height: 80px;
+    color: gold;
+    background-color: black;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+}
+
+header div ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 800px;
+    list-style-type: none;
+}
+
+header div ul li{
+    padding-right: 30px;
+}
+
+header div ul li a{
+    text-decoration: none;
+    color: gold;
+    font-size: small;
+    list-style: none;
+    font-size: large;
+}
+
+.signup{
+    width: 40px;
+    background-color: gold;
+    border: solid;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.signup2{
+    width: 40px;
+    background-color: black;
+    border: solid;
+    color: gold;
+    border-color: gold;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.cart{
+    height: 75px;
+    width: 75px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: fit-content;
+    background-color: black;
+    color: gold;
+}
+
+.img{
+    width: 300px;
+    height: 400px;
+}
+
+.img-1{
+    width: 200px;
+    height: 200px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.categories-section{
+    width: 960px;
+    height: 1200px;
+    padding: 50px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+
+}
+
+.categories{
+    height: fit-content;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.categories-link{
+    text-decoration: none;
+    color: gold;
+}
+
+.categories-image{
+    height: 200px;
+    width: 250px;
+    border: 1px;
+    border-style: solid;
+    border-color: gold;
+}
+
+.collection{
+    color: gold;
+    padding-top: 20px;
+}
+
+.top-font{
+    font-size: large;
+    color: gold;
+}
+
+footer{
+    height: 200px;
+    width: 960px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gold;
+}
+
+.footer-base{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer div ul li a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+footer div ul li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.background-2{
+    width: 1000px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;   
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+form a{
+    color: gold;
+    text-decoration: none;
+}
+
+form label{
+    padding-bottom: 10px;
+}
+
+.order-section{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup3{
+    width: 100px;
+    background-color: black;
+    border: 2px;
+    border-style: solid;
+    color: gold;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.signup4{
+    width: 130px;
+    background-color: gold;
+    border: 2px;
+    border-style: solid;
+    color: black;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
